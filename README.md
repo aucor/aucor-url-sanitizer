@@ -41,6 +41,10 @@ Send PR to add other languages to the mix.
 
 ## Changelog
 
+### 2.1
+
+ * Add `transliterator_transliterate` as last resort to catch-all clean up, props @tnottu
+
 ### 2.0
 
  * Github release

@@ -599,7 +599,15 @@ function aucor_url_sanitizer_sanitize_title($title) {
   }
 
   /**
-   * Step 4: Force sanitize everything that remains
+   * Step 4: Catch all method for all other characters (in any language)
+   */
+
+  if (function_exists('transliterator_transliterate')) {
+    $title = transliterator_transliterate('Any-Latin; Latin-ASCII; Lower()', $title);
+  }
+
+  /**
+   * Step 5: Force sanitize everything that remains
    */
 
   $title = preg_replace("/[^A-Za-z0-9'_\-\.]/", '-', $title);
