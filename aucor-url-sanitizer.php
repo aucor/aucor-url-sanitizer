@@ -5,7 +5,7 @@ Plugin URI: https://www.aucor.fi
 Description: Converts Cyrillic, Georgian, Arabic and Chinese characters in post, term slugs and media file names to Latin characters.
 Author: Aucor Oy
 Author URI: https://www.aucor.fi
-Version: 2.0
+Version: 2.1
 */
 
 /**
