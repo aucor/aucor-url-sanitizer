@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Aucor URL Sanitizer
-Plugin URI: https://www.aucor.fi
+Plugin URI: https://github.com/aucor/aucor-url-sanitizer
 Description: Converts Cyrillic, Georgian, Arabic and Chinese characters in post, term slugs and media file names to Latin characters.
 Author: Aucor Oy
 Author URI: https://www.aucor.fi
