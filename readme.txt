@@ -44,6 +44,9 @@ Download and activate. That's it.
 
 == Changelog ==
 
+= 2.1.1 =
+* WordPress.org release
+
 = 2.1 =
 * Add `transliterator_transliterate` as last resort to catch-all clean up, props @tnottu
 
